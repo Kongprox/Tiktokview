@@ -176,7 +176,7 @@ if __name__ == "__main__":
         with open('proxies.txt', 'r') as f:
             proxies = f.read().splitlines()
     os.system("cls" if os.name == "nt" else "clear")
-    set_title("HN TOOL")
+    set_title("Kongprox")
     txt = """\n\n
     TikTok Viewbot by @Trần Công \n"""
     print(
