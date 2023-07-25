@@ -123,7 +123,7 @@ def send(__device_id, __install_id, cdid, openudid):
             try:
                 if response.json()['status_code'] == 0:
                     _lock.acquire()
-                    print(Colorate.Horizontal(Colors.purple_to_red, f'TikTok Viewbot by HN TOOL^| success: {success} fails: {fails} reqs: {reqs} rps: {rps} rpm: {rpm}'))
+                    print(Colorate.Horizontal(Colors.purple_to_red, f'TikTok Viewbot by Kongprox^| success: {success} fails: {fails} reqs: {reqs} rps: {rps} rpm: {rpm}'))
                     success += 1
                     _lock.release()
             except:
@@ -176,7 +176,7 @@ if __name__ == "__main__":
         with open('proxies.txt', 'r') as f:
             proxies = f.read().splitlines()
     os.system("cls" if os.name == "nt" else "clear")
-    set_title("Kongprox")
+    set_title("KONG TOOL")
     txt = """\n\n
     TikTok Viewbot by @Trần Công \n"""
     print(
